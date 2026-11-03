@@ -1,0 +1,5 @@
+def capital(capitals): 
+    return [
+        f"The capital of {item.get('state', item.get('country'))} is {item['capital']}"
+        for item in capitals
+    ]
